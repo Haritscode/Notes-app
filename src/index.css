@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle-picker>span {
+    padding: 4px;
+    border-radius: 8px;
+}
+.circle-picker>span:hover {
+    @apply bg-slate-200;
+}
